@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Bar</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+  .search-container {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .search-container input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+  }
+  
+  .search-container button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .search-container select {
+    position: absolute;
+    width: calc(100% - 2px);
+    top: 100%;
+    left: 0;
+    display: none;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="search-container">
+  <input type="text" placeholder="Search...">
+  <button type="submit"><i class="fas fa-search"></i></button>
+  <select>
+    <!-- <option value="">Select One</option> -->
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+  </select>
+</div>
+
+</body>
+</html>

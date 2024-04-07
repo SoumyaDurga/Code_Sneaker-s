@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive navbar with search and login - Bedimcode</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="navbar.css">
+  </head>
+
+  <body>
+    <div class="handler_content"> 
+    <!--==================== HEADER ====================-->
+    <header id="nav-bar">
+      <div class="logo_handler">
+        <a href="home.html"><img src="Logo.jpg" alt=""/>
+          <h2>CODE SNEAKER'S Mentorship</h2></a>
+      </div>
+      <div class="list-1">
+          <div>
+              <li>
+                  <a href="home.html">Home</a>
+              </li>
+              <li><a href="Blog.html">blogs</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="progress.html">Progress</a></li>
+          </div>
+      </div>
+      <div class="search-container">
+        <input id="searchInput" type="text" placeholder="Search..." value="">
+        <button id="searchButton" type="submit"><i class="fas fa-search"></i></button>
+        <select id="selectOption">
+            <option value="Img-three-Mentoring-Programs.html">Full Stack Development</option>
+            <option value="Img-one-Mentoring-Programs.html">Frontend Development</option>
+            <option value="Img-two-Mentoring-Programs.html">Backend Development</option>
+            <option value="Python">Python</option>
+            <option value="DSA">DSA</option>
+            <option value="Flutter">Flutter</option>
+        </select>
+    </div>
+      <nav id="list-2">
+          <button class="lo-reg"><a href="#">  <a href="login.html"> LOGIN </a>  <b>/</b>
+              <a href="register.html">
+                  REGISTER</a> </button>
+      </nav>
+      <button class="hamburger-menu">&#9776;</button>
+  <div class="menu-list" >
+  <button class="profile-button"><a href="login.html"> LOGIN </a>  <b>/</b> <a href="register.html">
+      REGISTER</a></button>
+  <ul class="menu_ul">
+    <li class="menu_li"><a class="menu_a" href="home.html">Home</a></li>
+    <li class="menu_li"><a class="menu_a" href="Blog.html">Blogs</a></li>
+    <li class="menu_li"><a class="menu_a" href="about.html">About</a></li>
+    <li class="menu_li"><a class="menu_a" href="progress.html">Progress</a></li>
+  </ul>
+  </div>
+  
+  </header>
+  
+    <!-- main content -->
+    <div class="content-1">
+      <h1>Supercharge your career with</h1>
+      <h1>Long Term Mentorship</h1>
+      <h2>"Start steady, finish strong: Pace yourself for lasting success."</h2>
+    </div>
+    <section class="mentor-mentee">
+      <div class="mentor">
+        <h3>Become a Mentor</h3>
+        <p>Share your knowledge and expertise with aspiring individuals.</p>
+        <a href="register.html" class="btn">Join as Mentor</a>
+      </div>
+      <div class="mentee">
+        <h3>Find a Mentor</h3>
+        <p>Discover experienced mentors to guide you towards your goals.</p>
+        <a href="mentor.html" class="btn">Find Mentor</a>
+      </div>
+    </section>
+    <!-- companys logos -->
+    <h3 id="quote-1">
+      Make career progress with mentors that have worked at companies like
+    </h3>
+    <div class="logo-container">
+      <img class="logo" src="spoti.png" alt="" />
+      <img class="logo" src="window.png" alt="" />
+      <img class="logo" src="uber.png" alt="" />
+      <img class="logo" src="insta.jpg" alt="" />
+      <img class="logo" src="meta.png" alt="" />
+      <img class="logo" src="amz.jpg" alt="" />
+    </div>
+    <!-- mentor fields -->
+    <h2 class="mntr-h2">
+      Find your mentor in field of interest you're passionate in
+    </h2>
+    <div class="mentor-fields">
+      <button class="fields">
+        <h4 class="fields-head">
+          <i class="fa-solid fa-code"></i> Engninering
+        </h4>
+        <p>
+          Frontend, Backend, Fullstack, DevOps / SRE / Cloud Engineer,
+          Cybersecurity Engineer, QA / Automation Testing Engineer, Engineering
+          Manager
+        </p>
+      </button>
+      <button class="fields">
+        <h4 class="fields-head">
+          <i class="fa-solid fa-brain"></i> Data Science
+        </h4>
+        <p>Data Engineer / Big Data, Data Scientist / AI/ML, Data Analyst</p>
+      </button>
+      <button class="fields">
+        <h4 class="fields-head">
+          <i class="fa-brands fa-product-hunt"></i> Product
+        </h4>
+        <p>Product Manager, Project / Program Manager, UI/UX Designer</p>
+      </button>
+      <button class="fields">
+        <h4 class="fields-head">
+          <i class="fa-solid fa-business-time"></i> Business
+        </h4>
+        <p>
+          Sales, Marketing, Business Analyst / Consultant, Finance, HR /
+          Behavioural & Communication
+        </p>
+      </button>
+    </div>
+    <div class="details">
+      <h1>5+ mentors are just a Free Trial Session away</h1>
+    </div>
+    <div class="Search-div">
+      <h2>Find your mentor now!</h2>
+      <button><a href="mentor.html">Search Mentors</a></button>
+    </div>
+    <!-- explore mentor -->
+    <div class="explore-mentor">
+      <div class="mentor-img">
+        <img src="prajapat mentor.jpg" alt="" /> <span>Prajapat</span>
+        <p>Frontend Engineer</p>
+        <span>$500</span>
+        <button><a href="#">Buy Free Trial</a></button>
+      </div>
+      <div class="mentor-img">
+        <img src="mentor.jpg" alt="" /> <span>Rahul</span>
+        <p>Frontend Engineer</p>
+        <span>$500</span>
+        <button><a href="#">Buy Free Trial</a></button>
+      </div>
+      <div class="mentor-img">
+        <img src="soumya_mentor.jpg" alt="" /> <span>Soumya</span>
+        <p>Software Engineer</p>
+        <span>$500</span>
+        <button><a href="#">Buy Free Trial</a></button>
+      </div>
+      <div class="mentor-img">
+        <img src="vikas_mentor.avif" alt="" /> <span>Vikash</span>
+        <p>Backend Engineer</p>
+        <span>$500</span>
+        <button><a href="#">Buy Free Trial</a></button>
+      </div>
+      <button class="srch-button"><a href="">Search Mentors</a></button>
+    </div>
+    <footer>
+      <!-- ******** Footer ******** -->
+      <footer>
+        <div class="footer-panel-1">
+          <a href="index.html">Back to Top</a>
+        </div>
+        <div class="footer-panel-2">
+          <ul>
+            <p>Get to Know Us</p>
+            <a href="#">Blog</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Our Team</a>
+            <!-- <a href="#">Our Story</a> -->
+            <a href="#">FAQs</a>
+          </ul>
+          <ul>
+            <p>What we offer</p>
+            <a href="#">Membership</a>
+            <!-- <a href="#">Make a Careers</a> -->
+            <!-- <a href="#">Career Development</a> -->
+            <!-- <a href="#">Consultancy</a> -->
+            <a href="#">Term and Service</a>
+            <!-- <a href="#">Reload Your Balance</a> -->
+          </ul>
+          <ul>
+            <p>Let Us Help You</p>
+            <a href="#">Help Center</a>
+            <!-- <a href="#">Support</a> -->
+            <!-- <a href="#">Security</a> -->
+            <a href="#">Privacy</a>
+          </ul>
+          <ul>
+            <p>Work with Us / Hiring</p>
+            <a href="#">Become a Mentor</a>
+            <a href="#">Mentor Drirectory</a>
+            <!-- <a href="#">Consultants</a> -->
+            <a href="#">Community</a>
+          </ul>
+        </div>
+        <div class="footer-panel-3">
+          <a href="index.html">
+            <img class="logo2" src="logo.jpg" />
+          </a>
+        </div>
+        <div class="footer-panel-4">
+          <div class="pages">
+            <a>Conditions of Use</a>
+            <a>Privacy Notice</a>
+            <a>Your Ads Privacy Choices</a>
+          </div>
+          <div class="copyright">
+            2024, Copyright copy, Code sneaker.com, Inc. or its affiliates
+          </div>
+        </div>
+      </footer>
+    </footer>
+  </div>
+    <!-- MAIN JS-->
+    <script src="home.js"></script>
+    <script src="Blog.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+@media screen and (width >= 974px){
+    .back-to-Blog2{
+      display: none;
+    }
+    .close_course{
+      display: none;
+    }
+    .open_course{
+        display: none;
+    }
+  }
